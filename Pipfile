@@ -1,0 +1,22 @@
+[[source]]
+url = "https://archive.panda3d.org/"
+verify_ssl = true
+name = "panda3d"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"panda3d" = "*"
+
+[dev-packages]
+pytest = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
